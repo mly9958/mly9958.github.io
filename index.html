@@ -19,7 +19,7 @@
 <script id="hexo-configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    hostname: new URL('http://yoursite.com').hostname,
+    hostname: new URL('http://xiaoyanblog.com').hostname,
     root: '/',
     scheme: 'Pisces',
     version: '7.6.0',
@@ -49,14 +49,14 @@
   <meta name="description" content="来，笑一个♪（＾∀＾●）ﾉｼ">
 <meta property="og:type" content="website">
 <meta property="og:title" content="晓烟の博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://xiaoyanblog.com/index.html">
 <meta property="og:site_name" content="晓烟の博客">
 <meta property="og:description" content="来，笑一个♪（＾∀＾●）ﾉｼ">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="cc">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://xiaoyanblog.com/">
 
 
 <script id="page-configurations">
@@ -67,7 +67,20 @@
     isPost: false
   };
 </script>
-
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
   <title>晓烟の博客</title>
   
 
@@ -209,7 +222,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/25/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://xiaoyanblog.com/2018/10/25/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/Autumn_in_Kanas_by_Wang_Jinyu.jpg">
@@ -508,6 +521,15 @@
 
   
 
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script>
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {

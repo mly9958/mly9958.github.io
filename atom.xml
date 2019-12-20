@@ -5,9 +5,9 @@
   <subtitle>我永远喜欢白面鸮</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://xiaoyanblog.com/"/>
   <updated>2018-01-01T04:00:00.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://xiaoyanblog.com/</id>
   
   <author>
     <name>cc</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/25/hello-world/"/>
-    <id>http://yoursite.com/2018/10/25/hello-world/</id>
+    <link href="http://xiaoyanblog.com/2018/10/25/hello-world/"/>
+    <id>http://xiaoyanblog.com/2018/10/25/hello-world/</id>
     <published>2018-10-25T08:10:03.000Z</published>
     <updated>2018-01-01T04:00:00.000Z</updated>
     
