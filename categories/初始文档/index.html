@@ -19,18 +19,18 @@
 <script id="hexo-configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    hostname: new URL('http://xiaoyanblog.com').hostname,
+    hostname: new URL('https://mly9958.github.io# 绑定域名').hostname,
     root: '/',
     scheme: 'Pisces',
     version: '7.6.0',
     exturl: false,
     sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
+    copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
-    lazyload: false,
+    lazyload: true,
     pangu: false,
     comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
     algolia: {
@@ -49,14 +49,14 @@
   <meta name="description" content="来，笑一个♪（＾∀＾●）ﾉｼ">
 <meta property="og:type" content="website">
 <meta property="og:title" content="晓烟の博客">
-<meta property="og:url" content="http://xiaoyanblog.com/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/index.html">
+<meta property="og:url" content="https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/index.html">
 <meta property="og:site_name" content="晓烟の博客">
 <meta property="og:description" content="来，笑一个♪（＾∀＾●）ﾉｼ">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="cc">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://xiaoyanblog.com/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/">
+<link rel="canonical" href="https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/">
 
 
 <script id="page-configurations">
@@ -117,7 +117,8 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <p class="site-subtitle">我永远喜欢白面鸮</p>
+        <h1 class="site-subtitle" itemprop="description">我永远喜欢白面鸮</h1>
+      
   </div>
 
   <div class="site-nav-toggle">
@@ -156,6 +157,11 @@
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">1</span></a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>站点地图</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -210,14 +216,14 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <h1 class="collection-header">初始文档
+        <h2 class="collection-header">初始文档
           <small>分类</small>
-        </h1>
+        </h2>
       </div>
 
       
     <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
+      <h2 class="collection-header">2019</h2>
     </div>
 
   <article itemscope itemtype="http://schema.org/Article">
@@ -231,11 +237,11 @@
         </time>
       </div>
 
-      <h2 class="post-title">
+      <h3 class="post-title">
           <a class="post-title-link" href="/2019/12/20/hello-world/" itemprop="url">
             <span itemprop="name">Hello World</span>
           </a>
-      </h2>
+      </h3>
 
     </header>
   </article>
@@ -411,6 +417,7 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 

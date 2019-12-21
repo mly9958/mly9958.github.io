@@ -5,9 +5,9 @@
   <subtitle>我永远喜欢白面鸮</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xiaoyanblog.com/"/>
+  <link href="https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
   <updated>2019-12-20T16:00:00.000Z</updated>
-  <id>http://xiaoyanblog.com/</id>
+  <id>https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</id>
   
   <author>
     <name>cc</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://xiaoyanblog.com/2019/12/20/hello-world/"/>
-    <id>http://xiaoyanblog.com/2019/12/20/hello-world/</id>
+    <link href="https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/2019/12/20/hello-world/"/>
+    <id>https://mly9958.github.io/#%20%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/2019/12/20/hello-world/</id>
     <published>2019-12-19T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -35,10 +35,10 @@
     </summary>
     
     
-      <category term="初始文档" scheme="http://xiaoyanblog.com/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/"/>
+      <category term="初始文档" scheme="https://mly9958.github.io# 绑定域名/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="初始" scheme="http://xiaoyanblog.com/tags/%E5%88%9D%E5%A7%8B/"/>
+      <category term="初始" scheme="https://mly9958.github.io# 绑定域名/tags/%E5%88%9D%E5%A7%8B/"/>
     
   </entry>
   
