@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Mysql中数据表特殊字段问题</title>
+    <url>/2020/01/03/mysql%E7%89%B9%E6%AE%8A%E5%AD%97%E6%AE%B5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>最近在工作写代码的时候，使用springdatajpa向数据库插入数据时，怎么都插入不进去，一直报语法错误，我检查了字段类型，字段名称，都没有问题。</p>
+<p>最后在网上查阅资料时发现，我数据库表有个字段名称为<code>desc</code>，这个名称和mysql数据库关键字冲突了，导致一直报错，更改为<code>description</code>后正常</p>
+]]></content>
+      <categories>
+        <category>mysql</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+        <tag>特殊字段</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>出师表</title>
     <url>/2019/12/21/%E5%87%BA%E5%B8%88%E8%A1%A8/</url>
     <content><![CDATA[<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。</p>

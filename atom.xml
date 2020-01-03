@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dxc6r4.coding-pages.com/"/>
-  <updated>2019-12-20T16:00:00.000Z</updated>
+  <updated>2020-01-03T10:11:05.317Z</updated>
   <id>https://dxc6r4.coding-pages.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mysql中数据表特殊字段问题</title>
+    <link href="https://dxc6r4.coding-pages.com/2020/01/03/mysql%E7%89%B9%E6%AE%8A%E5%AD%97%E6%AE%B5%E9%97%AE%E9%A2%98/"/>
+    <id>https://dxc6r4.coding-pages.com/2020/01/03/mysql%E7%89%B9%E6%AE%8A%E5%AD%97%E6%AE%B5%E9%97%AE%E9%A2%98/</id>
+    <published>2020-01-02T16:00:00.000Z</published>
+    <updated>2020-01-03T10:11:05.317Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在工作写代码的时候，使用springdatajpa向数据库插入数据时，怎么都插入不进去，一直报语法错误，我检查了字段类型，字段名称，都没有问题。</p><p>最后在网上查阅资料时发现，我数据库表有个字段名称为<code>desc</code>，这个名称和mysql数据库关键字冲突了，导致一直报错，更改为<code>description</code>后正常</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在工作写代码的时候，使用springdatajpa向数据库插入数据时，怎么都插入不进去，一直报语法错误，我检查了字段类型，字段名称，都没有问题。&lt;/p&gt;
+&lt;p&gt;最后在网上查阅资料时发现，我数据库表有个字段名称为&lt;code&gt;desc&lt;/code&gt;，这个名称和mysql数据
+      
+    
+    </summary>
+    
+    
+      <category term="mysql" scheme="https://dxc6r4.coding-pages.com/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="https://dxc6r4.coding-pages.com/tags/mysql/"/>
+    
+      <category term="特殊字段" scheme="https://dxc6r4.coding-pages.com/tags/%E7%89%B9%E6%AE%8A%E5%AD%97%E6%AE%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>出师表</title>
